@@ -17,5 +17,17 @@
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@auth/*": ["src/auth/*"],
+      "@base/*": ["src/base/*"],
+      "@config/*": ["src/config/*"],
+      "@database/*": ["src/database/*"],
+      "@decorators/*": ["src/common/decorators/*"],
+      "@guards/*": ["src/common/guards/*"],
+      "@helpers/*": ["src/common/helpers/*"],
+      "@models/*": ["src/models/*"],
+      "@shared/*": ["src/shared/*"],
+      "@packages/*": ["src/common/packages/*"],
+    }
   }
 }
